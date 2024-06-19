@@ -1,0 +1,43 @@
+/* src/components/ArticleCard.css */
+.article-card {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s;
+    background-color: #fff;
+  }
+  
+  .article-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .article-card .article-content {
+    padding: 10px;
+  }
+  
+  .article-card .article-content h3 {
+    font-size: 18px;
+    margin: 0 0 10px 0;
+  }
+  
+  .article-card .article-content p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .article-card .article-content a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s;
+  }
+  
+  .article-card .article-content a:hover {
+    color: #0056b3;
+  }
+  
+  .article-card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  

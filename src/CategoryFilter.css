@@ -1,0 +1,31 @@
+/* src/components/CategoryFilter.css */
+.category-filter {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .category-filter button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .category-filter button.active,
+  .category-filter button:hover {
+    background-color: #ddd;
+  }
+  
+  @media (max-width: 600px) {
+    .category-filter {
+      flex-direction: column;
+    }
+  
+    .category-filter button {
+      margin: 5px 0;
+    }
+  }
+  
